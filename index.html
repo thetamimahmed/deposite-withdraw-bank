@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Money</title>
+    <!-- google font link  -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- css stylesheet link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Welcome To Eastern Bank</h1>
+    </header>
+    <section class="container">
+        <!-- money added section  -->
+        <div class="money-container">
+            <div class="balance-money">
+                <h2 class="money-title">Balance</h2>
+                <p class="money">$<span id="balance-total">1154</span></p>
+            </div>
+            <div class="deposite-money">
+                <h2 class="money-title">Deposite</h2>
+                <p class="money">$<span id="deposite-total">00</span></p>
+            </div>
+            <div class="withdraw-money">
+                <h2 class="money-title">Withdraw</h2>
+                <p class="money">$<span id="withdraw-total">00</span></p>
+            </div>
+        </div>
+        <!-- input section  -->
+        <div class="input-container">
+            <div class="deposite-amount">
+                <h2 class="input-title">Deposite Amount</h2>
+                <input id="deposite-input" class="input-field" type="text">
+                <br>
+                <button class="btn" id="deposite-btn">Submit Deposite</button>
+            </div>
+            <hr class="style18">
+            <div class="withdraw-amount">
+                <h2 class="input-title">Withdraw Amount</h2>
+                <input id="withdraw-input" class="input-field" type="text">
+                <br>
+                <button class="btn" id="withdraw-btn">Submit Withdraw</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- js file link  -->
+    <script src="app.js"></script>
+</body>
+</html>
